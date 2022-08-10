@@ -61,7 +61,7 @@
   }
 
 
-  /*** Carousal ****/
+  /*** Carousel ****/
 .bg-violet {
     background-color: #c271ff !important;
     height: 100%;
@@ -71,10 +71,11 @@
     header {
       background-position: 50% 50%;
     }
-  
+
     .users img {
     width: 75% !important;
     height: auto;
+    justify-content: left;
     }
 }
 
