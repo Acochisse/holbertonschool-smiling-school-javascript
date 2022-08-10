@@ -1,0 +1,162 @@
+* {
+    font-family: "Source Sans Pro" !important;
+  }
+  header {
+    background-image: url("images/pic_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo {
+    width: auto;
+    height: 30px;
+  }
+
+  .nav-item {
+    font-size: 12px !important;
+  }
+  
+  header a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: #c371ff !important;
+  }
+  
+  .btn {
+    background-color: #c271ff !important;
+    border-color: #c271ff !important;
+    font-size: 14px;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background-color: #c271ff !important;
+    border-color: #c271ff !important;
+    opacity: 0.9;
+  }
+
+  .text-violet {
+    color: #c271ff;
+  }
+  
+  .users-section {
+    margin-top: 8rem;
+  }
+  
+  .users {
+    margin: 5rem 0;
+  }
+  
+  .users img {
+    width: 75% !important;
+    height: auto;
+  }
+  
+  #nav-menu-btn {
+    background-color: white;
+    width: 13px;
+    height: 2px;
+    position: absolute;
+    top: 3rem;
+  }
+
+
+  /*** Carousal ****/
+.bg-violet {
+    background-color: #c271ff !important;
+    height: 100%;
+  }
+
+@media (max-width: 1200px) {
+    header {
+      background-position: 50% 50%;
+    }
+  
+    .users img {
+    width: 75% !important;
+    height: auto;
+    }
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #C271FF;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media (max-width: 576px) {
+    header {
+      background-position: 45% 50%;
+    }
+  
+    .hamburger {
+      max-height: 0px;
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out;
+    }
+  
+    #nav-toggle:checked ~ .hamburger {
+      max-height: 100vh;
+      overflow: hidden;
+    }
+}
+/*** Videos ***/
+
+.video-card {
+  width: 250px;
+}
+
+img.circle-thumb {
+  width: 150px;
+  height: 150px;
+}
+
+img.logo {
+  height: 30px;
+}
+
+img.star {
+  height: 15px;
+  width: 15px;
+}
+
+img.circle-thumb-small {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/*** Free membership ***/
+
+.bg-sectionfree {
+  background-color: #071629 !important;
+}
+
+.social > svg {
+    fill: white;
+  }
+  
+/***Pricing***/
+.pricing {
+    background-image: url("images/pic_2.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.courses {
+    background-image: url("images/pic_3.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.tcourse {
+    font-size: 32px;
+    font-family: "Coiny" !important;
+    font-weight: 400;
+  }
