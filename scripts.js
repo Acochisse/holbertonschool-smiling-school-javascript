@@ -8,7 +8,7 @@ $(document).ready(function() {
                     $("#carousel-controls .carousel-inner").append(`
                         <div class="carousel-item py-5 p-md-5">
                         <div class="item-inner d-md-flex flex-row">
-                            <img src="${e.pic_url}" width="160px" height="160px" class="d-block mx-auto rounded-circle mr-2">
+                            <img src="${e.pic_url}" width="160px" height="160px" class="quotes d-block mx-auto justified-left rounded-circle mr-2">
                             <div class="carousel-caption d-md-block text-left">
                                 <p>${e.text}</p>
                                 <p class="font-weight-bold">${e.name}</p>
